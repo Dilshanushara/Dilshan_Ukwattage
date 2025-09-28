@@ -1,21 +1,21 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rjshkhr.github.io/cleanfolio',
-  title: 'JS.',
+  // homepage: 'https://rjshkhr.github.io/cleanfolio',
+  // title: 'JS.',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
-  role: 'Front End Engineer',
-  picture: 'https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png',
+  name: 'Dilshan Ukwattage',
+  role: 'Software Engineer | Angular Specialist | Tech Enthusiast',
+  picture: '50502_Dilshan_Ukwattage.jpg',
 
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
+    'I’m an experienced Software Engineer with over 4 years of hands-on experience in developing and optimizing robust applications using Angular, TypeScript, C# .NET, Java, Python, MySQL, and Microservices architecture. I specialize in building scalable, high-performance systems and delivering clean, maintainable code that meets both technical and business needs. With a strong grasp of Agile methodologies, CI/CD pipelines, Git, and Jenkins, I thrive in collaborative environments and enjoy solving complex challenges. My passion lies in creating efficient solutions that enhance user experience, streamline operations, and drive innovation. I’m always eager to contribute to dynamic teams where I can continue to grow and make a meaningful impact through technology.',
   resume: 'https://example.com',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://www.linkedin.com/in/dilshan-ukwattage-11133217a/',
+    github: 'https://github.com/Dilshanushara',
   },
 }
 
@@ -54,22 +54,20 @@ const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
   'HTML',
-  'CSS',
+  'CSS/SCSS',
   'JavaScript',
   'TypeScript',
-  'React',
-  'Redux',
-  'SASS',
-  'Material UI',
+  'Angular',
+  'RxJs',
+  '.Net Core',
   'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
+  'Jenkins',
+  'Bitbucket',
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'dilshanushara16@gmail.com',
 }
 
 export { header, about, projects, skills, contact }
